@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>profileCard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <!-- <form id="form"> -->
+            <div id="form">
+                <h3>Write Your details</h3>
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="about" placeholder="About">
+                <input type="text" id="addr" placeholder="Address">
+                <input type="text" id="phone" placeholder="Phone No.">
+                <input type="text" id="college" placeholder="College">
+                <button onclick="return display()">Submit</button>
+            </div>
+            <!-- </form> -->
+        </div>
+        <div class="right">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td id="uName"></td>
+                </tr>
+                <tr>
+                    <td>About:</td>
+                    <td id="uAbout"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td id="uAddress"></td>
+                </tr>
+                <tr>
+                    <td>Phone No.:</td>
+                    <td id="uPhone"></td>
+                </tr>
+                
+                <tr>
+                    <td>College:</td>
+                    <td id="uCollege"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
